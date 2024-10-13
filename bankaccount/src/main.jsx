@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
-import accountReducer from './redux/accountSlice';
+import accountReducer from './accountSlice';
 import App from './App';
 
 const store = configureStore({
